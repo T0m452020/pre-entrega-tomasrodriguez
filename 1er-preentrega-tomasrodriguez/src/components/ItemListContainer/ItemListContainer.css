@@ -1,0 +1,37 @@
+/* Estilos generales para ItemListContainer */
+.item-list-container {
+    background-color: #111;  /* Fondo oscuro */
+    color: #00f7ff;          /* Azul neón */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;      /* Alineación central */
+    padding: 8px;
+}
+
+.item-list-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+/* Media Query para Tablets (Entre 600px y 1024px) */
+@media screen and (max-width: 1024px) {
+    .item-list-container {
+        padding: 15px;  /* Reducir el padding */
+    }
+
+    .item-list-container h1 {
+        font-size: 28px; /* Reducir el tamaño del título */
+    }
+}
+
+/* Media Query para Móviles (Menos de 600px) */
+@media screen and (max-width: 600px) {
+    .item-list-container {
+        padding: 10px;  /* Reducir el padding */
+    }
+
+    .item-list-container h1 {
+        font-size: 22px; /* Reducir el tamaño del título */
+    }
+}
